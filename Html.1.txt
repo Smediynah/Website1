@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #FDD835;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    color: #E53935;
+    margin: 0;
+  }
+  .content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .topic {
+    flex: 0 0 calc(50% - 10px);
+    background-color: #FFEB3B;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  .topic h2 {
+    color: #E53935;
+    margin-top: 0;
+  }
+  .contact {
+    margin-top: 30px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Your Portfolio</h1>
+  </header>
+  <div class="content">
+    <div class="topics">
+      <div class="topic">
+        <h2>Learning & Communication</h2>
+        <p>• Learning correct sentence structure communication syntax</p>
+        <p>• Consumer Law & Contracts</p>
+      </div>
+      <div class="topic">
+        <h2>Business & Income</h2>
+        <p>• Building Business Credit using EIN Only</p>
+        <p>• Residual Income w/ Affiliate Programs</p>
+        <p>• BONUS: ERC Program for Businesses</p>
+        <p>• BONUS: In the News- <a href="https://youtu.be/ZjDndQ4-voc">Watch Here</a></p>
+      </div>
+      <div class="topic">
+        <h2>Quantum Syntax</h2>
+        <p>• Consumer Law & Contracts</p>
+        <p>• Building Business Credit</p>
+        <p>• Residual Income- <a href="https://04104968.acnibo.com/us-en/homepage">Visit Link</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <p>Personal website: <a href="https://financeproplus.com/service/ertc?ref=plugtalk">Visit Website</a></p>
+    <p><a href="#">Leave a Review</a> button</p>
+    <p><a href="#">PDF Library page</a></p>
+  </div>
+</body>
+</html>
